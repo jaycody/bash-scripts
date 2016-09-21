@@ -3,7 +3,7 @@ an attempt to earn my stripes
 _____________
 
 exercises from:  
-## BASH Programming - Introduction HOW-TO 
+## [BASH Programming - Introduction HOW-TO][1]
 ### by Mike G mikkey at [dynamo.com.ar][2]
 [http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html#toc1][1]
 
