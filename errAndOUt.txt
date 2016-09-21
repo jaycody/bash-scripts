@@ -1,0 +1,7 @@
+README.md
+deleteME
+errAndOUt.txt
+grep-errors.txt
+hello.sh
+ls-l.txt
+stdout-2-file.sh
