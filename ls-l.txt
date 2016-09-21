@@ -1,0 +1,5 @@
+total 12
+-rw-r--r--  1 jay  staff  311 Sep 20 19:53 README.md
+-rwxr-xr-x  1 jay  staff   29 Sep 20 19:40 hello.sh
+-rw-r--r--  1 jay  staff    0 Sep 21 11:35 ls-l.txt
+-rwxr-xr-x  1 jay  staff   29 Sep 21 11:35 stdout-2-file.sh
