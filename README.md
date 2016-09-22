@@ -9,8 +9,8 @@ exercises from:
 
 -------------------
 
-## misc notes:
-### There are 3 descriptors  
+## REDIRECTION 
+### There are 3 file descriptors  
 `stdin`  
 `stdout`  
 `stderr`  
@@ -54,6 +54,16 @@ as in:
 `&>`  
 as in:  
 `rm -f $(find / -name deleteMe) &> /path/to/newFile`  
+
+----------------
+
+## PIPES  
+Pipes let you use the output of a program as the input of another.  
+Instead of the output of `ls` being printed, it is piped to `sed`  
+`ls -l | sed -e "s/[aeio]/u/g`  
+here the output of `ls -l` is sent to the `grep` program
+`ls -l | grep "\.txt$"`
+
 
 
 [1]:http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html#toc1
