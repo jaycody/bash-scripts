@@ -66,6 +66,21 @@ Instead of the output of `ls` being printed, it is piped to `sed`
 Here the output of `ls -l` is sent to the `grep` program  
 `ls -l | grep "\.txt$"`
 
+-------------------
+
+## VARIABLES
+A variable in bash can contain a num, char, or string.  
+And there's no need to declare a variable, just assign the value:  
+```
+#!/bin/bash 
+STR="Hello new world of bash variables!"
+echo $STR 
+```
+
+The `$` in line 3 retrieves the variable 
+
+--------------------
+
 
 
 [1]:http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html#toc1
