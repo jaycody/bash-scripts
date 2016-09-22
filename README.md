@@ -57,11 +57,13 @@ as in:
 
 ----------------
 
-## PIPES  
-Pipes let you use the output of a program as the input of another.  
+## PIPES  |  
+Pipes let you use the output of a program as the input of another.    
+
 Instead of the output of `ls` being printed, it is piped to `sed`  
 `ls -l | sed -e "s/[aeio]/u/g`  
-here the output of `ls -l` is sent to the `grep` program
+
+Here the output of `ls -l` is sent to the `grep` program  
 `ls -l | grep "\.txt$"`
 
 
