@@ -79,6 +79,32 @@ echo $STR
 
 The `$` in line 3 retrieves the variable 
 
+#### capturing a command's output in a variable 
+```
+#!/bin/bash
+TSTAMP=$(date +%Y%m%d_%H%M%S)
+
+mkdir tStampDirs/$TSTAMP
+echo "Created dir tStampDirs/$TSTAMP"
+ls -l tStampDirs
+```
+
+#### local variables
+```
+#!/bin/bash 
+TSTAMP=$(date +%Y%m%d_%H%M%S)
+function showDate {
+  local TSTAMP=TODAY:
+  echo $TSTAMP
+}
+showDate
+echo $TSTAMP
+```
+
+
+
+
+
 --------------------
 
 
