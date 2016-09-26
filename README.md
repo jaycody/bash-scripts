@@ -101,6 +101,41 @@ showDate
 echo $TSTAMP
 ```
 
+## Conditionals
+`if..then` base construction in bash:  
+**NOTE:** empty char after '[ ' and before ' ]'  
+```
+if [ expression ]; then
+  code if 'expression'is true.
+fi
+```  
+
+`if..then..else` base construction in bash:  
+```
+if [ expression ]; then 
+  code if true
+else
+  code if expression is false
+fi
+```
+
+`if..then..else` example  
+```
+#!/bin/bash
+if [ 1 == 0 ]; then
+  echo yup it is the big T
+else
+  echo 'otherwise do this'
+fi 
+```
+
+## Loops: For, While, and Until
+
+
+
+
+
+
 
 
 
