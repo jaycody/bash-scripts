@@ -131,7 +131,12 @@ fi
 
 ## Loops: For, While, and Until
 #### for loop
-The `for loop` in bash iterates over a series of words in a string.  
+The `for loop` in bash iterates over a series of words in a string. 
+```
+for i in $( ls ); do
+  echo item: $i
+done
+``` 
 
 #### while 
 `while` executes a piece of code if the **control expression** is true, and only stops when the **control expression** is false (or an explicit break is found within the executed code).
@@ -140,8 +145,11 @@ The `for loop` in bash iterates over a series of words in a string.
 `until` loop is almost equal to the while loop, except that the code is executed while the **control expression** evaluates to false  
 
 #### examples
-
-
+```
+for i in $( ls ); do
+  echo item: $i 
+done  
+```
 
 
 
