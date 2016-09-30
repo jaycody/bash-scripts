@@ -53,8 +53,10 @@ Use `{}` to create lists
 
 Execute multiple commands in a single line with `;` (semicolon)
 
-## REDIRECTION 
-### There are 3 file descriptors  
+-----------------
+
+## Shell Scripts
+### There are 3 file descriptors used for REDIRECTION
 `stdin`  
 `stdout`  
 `stderr`  
