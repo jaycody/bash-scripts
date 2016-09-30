@@ -2,12 +2,56 @@
 an attempt to earn my stripes
 _____________
 
-exercises from:  
+exercises and notes from:  
 ## [BASH Programming - Introduction HOW-TO][1]
-### by Mike G mikkey at [dynamo.com.ar][2]
-[http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html#toc1][1]
+- #### by Mike G mikkey at [dynamo.com.ar][2] 
 
+## [Getting Started with BASH: A Bash Tutorial][20]
+
+## [BashGuide][21]
 -------------------
+## What is the Bash Shell?
+The GNU Bourne-Again SHell (BASH) incorporates features from the C Shell (csh) and the Korn Shell (ksh) and conforms to the POSTIX 2 shell specifications. It provides a Command Line Interface (CLI) for working on \*nix systems and is the most common shell used on Linux systems. [hypexr.org](http://www.hypexr.org/bash_tutorial.php)
+
+BASH is an acronym for Bourne Again Shell. It is based on the Bourne shell and is mostly compatible with its features.
+
+Shells are command interpreters. They are applications that provide users with the ability to give commands to their operating system interactively, or to execute batches of commands quickly. In no way are they required for the execution of programs; they are merely a layer between system function calls and the user.  [BashGuide][21]
+
+BASH is not your operating system. It is not your window manager. **It is not your terminal (but it oftens runs inside your terminal).** It does not control your mouse or keyboard. It does not configure your system, activate your screensaver, or open your files when you double-click them. It is generally not involved in launching applications from your window manager or desktop environment. It's important to understand that BASH is only an interface for you to execute statements (using BASH syntax), either at the interactive BASH prompt or via BASH scripts. [BashGuide][21]
+
+`Shell`: A (possibly interactive) command interpreter, acting as a layer between the user and the system.   
+`Bash`: The Bourne Again Shell, a Bourne compatible shell.
+
+
+
+### Bash Config Files
+In your home directory, 3 files have a special meaning to Bash, allowing you to set up your environment automatically when you log in and when you invoke another Bash shell, and allow you to execute commands when you log out.  
+
+`.bash_profile` : read and the commands in it executed by Bash every time you log in to the system  
+
+`.bashrc` : read and executed by Bash every time you start a subshell  
+
+`.bash_logout` : read and executed by Bash every time a login shell exits
+
+The `.bash_profile` is read and executed when you log in to the system. If you start a subshell (a new shell) by typing `bash` at the command prompt, it will read commands from `.bashrc`. This allows you to separate commands needed at login from those needed when invoking a subshell. 
+
+However, most people want to have the same commands run regardless of whether it is a login shell or a subshell. This can be done by using the `source` command from within `.bash_profile` to execute `.bashrc`. You would then simply place all the commands in `.bashrc`.
+
+These files are useful for automatically executing commands like: `set, alias, unalias`, and setting the PS(1-4) variables, which can all be used to modify your bash environment.
+
+### Modify the Bash Shell with `set`
+`set -o emacs`
+Gives emacs controls in the bash.  Could be useful
+
+### Useful Commands 
+Search `~/.bash_history`.  From the Bash prompt, browse recent history with arrow up down, OR  
+
+`ctrl-r` invokes a search field with access to previous commands
+
+Use `{}` to create lists  
+  `touch {f1, f2, f3, f4}`
+
+Execute multiple commands in a single line with `;` (semicolon)
 
 ## REDIRECTION 
 ### There are 3 file descriptors  
@@ -166,3 +210,5 @@ done
 
 [1]:http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html#toc1
 [2]:http://dynamo.com.ar
+[20]:http://www.hypexr.org/bash_tutorial.php
+[21]:http://mywiki.wooledge.org/BashGuide
