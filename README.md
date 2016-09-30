@@ -151,6 +151,7 @@ for i in $( ls ); do
 done  
 ```
 
+### Functions
 
 
 
