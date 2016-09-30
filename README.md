@@ -198,8 +198,11 @@ done
 ```
 
 ### Functions
-
-
+Use the same piece of code, but with different inputs each time.  
+To declare:  
+`function my_func {my_code}`
+To call:
+`my_func`
 
 
 
