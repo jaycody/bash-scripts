@@ -208,6 +208,8 @@ To call:
 ### User Interfaces 
 #### Use select to make simple menus
 
+### MISC
+#### Reading User Input with `read`
 
 
 
