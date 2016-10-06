@@ -210,7 +210,22 @@ To call:
 
 ### MISC
 #### Reading User Input with `read`
+```
+#!/bin/bash 
+echo Please, enter your name  
+read NAME  
+echo "Hi $NAME!"
+```
+
+```
+echo Please, enter two words 
+read FW SW
+echo "your first word is $FW and your second word $SW"
+```
+
+
 #### Math
+
 
 
 --------------------
