@@ -225,6 +225,8 @@ echo "your first word is $FW and your second word $SW"
 
 
 #### Math
+Use bash to evaluate an arithmetic expression
+`echo $[1+1]`
 
 
 
