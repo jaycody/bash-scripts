@@ -3,12 +3,15 @@ an attempt to earn my stripes
 _____________
 
 exercises and notes from:  
-## [BASH Programming - Introduction HOW-TO][1]
+### [BASH Programming - Introduction HOW-TO][1]
 - #### by Mike G mikkey at [dynamo.com.ar][2] 
 
-## [Getting Started with BASH: A Bash Tutorial][20]
+### [Getting Started with BASH: A Bash Tutorial][20]
 
-## [BashGuide][21]
+### [BashGuide][21]
+
+### [Shell Scripting Tutorial](https://www.shellscript.sh/) - by Steve Parker
+
 -------------------
 ## What is the Bash Shell?
 The GNU Bourne-Again SHell (BASH) incorporates features from the C Shell (csh) and the Korn Shell (ksh) and conforms to the POSTIX 2 shell specifications. It provides a Command Line Interface (CLI) for working on \*nix systems and is the most common shell used on Linux systems. [hypexr.org](http://www.hypexr.org/bash_tutorial.php)
