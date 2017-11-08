@@ -1,4 +1,4 @@
-# bash-scripts
+# shell-scripts
 an attempt to earn my stripes
 _____________
 
