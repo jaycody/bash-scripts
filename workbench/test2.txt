@@ -1,0 +1,5 @@
+helllo
+what is this
+and what is this other line of text
+add these words to the text files test2.txt
+Append this please \n add these words to the text files

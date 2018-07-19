@@ -242,5 +242,7 @@ Use bash to evaluate an arithmetic expression
 
 [1]:http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html#toc1
 [2]:http://dynamo.com.ar
+[3]:http://superbad.com
+[4]
 [20]:http://www.hypexr.org/bash_tutorial.php
 [21]:http://mywiki.wooledge.org/BashGuide
